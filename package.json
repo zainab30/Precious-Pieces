@@ -1,0 +1,61 @@
+{
+  "name": "shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mobiscroll/react-lite": "^4.8.1",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^7.2.2",
+    "material-ui": "^0.20.2",
+    "mobiscroll": "^3.0.0-beta6",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.2",
+    "react-stripe-checkout": "^2.6.3",
+    "react-tap-event-plugin": "^3.0.3",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainab30/Precious-Pieces.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zainab30/Precious-Pieces/issues"
+  },
+  "homepage": "https://github.com/zainab30/Precious-Pieces#readme",
+  "keywords": []
+}

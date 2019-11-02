@@ -1,0 +1,10 @@
+.center {
+    text-align: center;
+    height: 700px;
+}
+
+.para {
+    margin: 30px 70px 30px 70px;
+    padding: 40px;
+    line-height: 4;
+}

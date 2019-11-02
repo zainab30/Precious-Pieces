@@ -1,0 +1,65 @@
+.subbtn {
+    background: rgba(109, 0, 25, 1);
+    background: -moz-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 0, 25, 1)), color-stop(0%, rgba(109, 0, 25, 1)), color-stop(14%, rgba(169, 3, 41, 1)));
+    background: -webkit-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -o-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -ms-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: linear-gradient(to right, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#6d0019", endColorstr="#a90329", GradientType=1);
+    color: 'white';
+    box-shadow: 2px 2px 2px black;
+}
+
+body {
+    padding-top: 4.2rem;
+    padding-bottom: 4.2rem;
+    background: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.myform {
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 500px;
+}
+
+.login-or {
+    position: relative;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+}
+
+.hr-or {
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}

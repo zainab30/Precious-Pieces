@@ -1,0 +1,72 @@
+.heading {
+    margin-top: 45px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#FEB4C5, #70001A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #333);
+    font-family: serif;
+    line-height: normal;
+}
+
+.cart {
+    text-align: center;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+}
+
+.color {
+    color: rgba(109, 0, 25, 1);
+    color: -moz-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    color: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 0, 25, 1)), color-stop(0%, rgba(109, 0, 25, 1)), color-stop(14%, rgba(169, 3, 41, 1)));
+    color: -webkit-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    color: -o-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    color: -ms-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    color: linear-gradient(to right, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#6d0019", endColorstr="#a90329", GradientType=1);
+}
+
+.main {
+    text-align: center;
+    height: 605px;
+    border-radius: 0 0 2px 2px;
+    padding: 0;
+    margin: 20px;
+}
+
+.rembtn {
+    background: rgba(109, 0, 25, 1);
+    background: -moz-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 0, 25, 1)), color-stop(0%, rgba(109, 0, 25, 1)), color-stop(14%, rgba(169, 3, 41, 1)));
+    background: -webkit-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -o-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -ms-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: linear-gradient(to right, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#6d0019", endColorstr="#a90329", GradientType=1);
+    color: 'white';
+    box-shadow: 2px 2px 2px black;
+    width: 109.453px;
+    margin: 50px 49.3575px 0px 49.3594px,
+}
+
+.chkoutbtn {
+    background: rgba(109, 0, 25, 1);
+    background: -moz-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 0, 25, 1)), color-stop(0%, rgba(109, 0, 25, 1)), color-stop(14%, rgba(169, 3, 41, 1)));
+    background: -webkit-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -o-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: -ms-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    background: linear-gradient(to right, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 0%, rgba(169, 3, 41, 1) 14%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#6d0019", endColorstr="#a90329", GradientType=1);
+    color: 'white';
+    box-shadow: 2px 2px 2px black;
+}
+
+.chkout {
+    width: 876px;
+    text-align: center;
+    margin-left: 20px;
+}
