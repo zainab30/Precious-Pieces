@@ -39,7 +39,7 @@ Your Password Is Incorrect :(`);
                                         <form className="omb_loginForm forms" id='signup' onSubmit={(e) => this.reg(e)}>
                                             <div className="input-group">
                                                 <span className="input-group-addon"><i className="fa fa-user"></i></span>
-                                                <input type="email" className="form-control" name="newid" id="login_id" placeholder="Create a Login ID" />
+                                                <input type="email" className="form-control" name="newid" id="login_id" placeholder="Write Email ID" />
                                             </div>
                                             <span className="help-block"></span>
 

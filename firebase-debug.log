@@ -1,0 +1,25 @@
+[debug] [2019-11-05T17:01:30.543Z] ----------------------------------------------------------------------
+[debug] [2019-11-05T17:01:30.547Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-11-05T17:01:30.547Z] CLI Version:   7.6.2
+[debug] [2019-11-05T17:01:30.547Z] Platform:      win32
+[debug] [2019-11-05T17:01:30.547Z] Node Version:  v10.15.3
+[debug] [2019-11-05T17:01:30.549Z] Time:          Tue Nov 05 2019 22:01:30 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-11-05T17:01:30.549Z] ----------------------------------------------------------------------
+[debug] [2019-11-05T17:01:30.549Z] 
+[debug] [2019-11-05T17:01:30.587Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-05T17:01:30.588Z] > authorizing via signed-in user
+[debug] [2019-11-05T17:01:30.588Z] [iam] checking project precious-pieces for permissions ["firebase.projects.get"]
+[debug] [2019-11-05T17:01:30.591Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/precious-pieces:testIamPermissions  
+
+[debug] [2019-11-05T17:01:32.521Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-05T17:01:32.524Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/precious-pieces  
+ 
+[debug] [2019-11-05T17:01:33.518Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\CMAD\Precious-Pieces'...
+[info] 
+[debug] [2019-11-05T17:01:33.540Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/precious-pieces/webApps/-/config  
+ 
+[debug] [2019-11-05T17:01:34.754Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000

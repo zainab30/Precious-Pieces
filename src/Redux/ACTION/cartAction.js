@@ -35,6 +35,12 @@ export const login = (id) => {
     }
 }
 
+export const logout = () => {
+    return {
+        type: 'LOGOUT',
+    }
+}
+
 export const fetchProducts = () => {
     return {
         type: "FETCH_PRODUCT"
@@ -58,6 +64,6 @@ export const thunk_action_creator = () => {
                     throw new Error("No such user found!!");
                 } else dispatch(receiveProducts(data));
             })
-            .catch(err => dispatch(console.log(err)));
+            .catch(err => (console.log(err)));
     };
 };

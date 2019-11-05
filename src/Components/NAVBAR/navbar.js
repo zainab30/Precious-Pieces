@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
 import { Link } from "react-router-dom";
-// import { removeItem, addItem, subItem } from '../../Redux/ACTION/cartAction'
+import { logout } from '../../Redux/ACTION/cartAction'
 import './navbar.css'
 
 class Navbar extends React.Component {
@@ -36,7 +36,7 @@ class Navbar extends React.Component {
                             <Link to='/about/' className="nav-item nav-link">About</Link>
                         </div>
                         <div className="navbar-nav ml-auto">
-                            {this.props.login ? <p onClick={(e) => { this.handleLogOut(); }} class='nav-link nav-item' id="logout">Log Out</p> : <span style={{ 'display': 'inline' }}><Link to='/login/' className="nav-link nav-item">Login</Link> <Link to='/signup/' className="nav-link nav-item">Sign Up</Link></span>}
+                            {this.props.login ? <Link to="/" onClick={(e) => { this.handleLogOut(); }} class='nav-link nav-item' id="logout">Log Out</Link> : <span style={{ 'display': 'inline' }}><Link to='/login/' className="nav-link nav-item">Login</Link> <Link to='/signup/' className="nav-link nav-item">Sign Up</Link></span>}
                         </div>
                     </div>
                 </nav>
@@ -55,4 +55,10 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps )(Navbar)
+const mapDispatchToProps = (dispatch) => {
+    return {
+        logout: () => { dispatch(logout()) }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Navbar)

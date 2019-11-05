@@ -104,7 +104,8 @@ const cartReducer = (state = initState, action) => {
     if (action.type === 'LOGOUT') {
         return {
             ...state,
-            login: false
+            login: false,
+            items: [],
         }
     }
 
